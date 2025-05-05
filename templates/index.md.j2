@@ -1,0 +1,22 @@
+# {{ org_name }} Projects
+
+*Last updated: {{ generated_date }}*
+
+This page lists all {{ count }} public repositories from the [{{ org_name }}](https://github.com/{{ org_name }}) GitHub organization.
+
+{% for repo in repositories %}
+## [{{ repo.name }}]({{ repo.url }})
+
+{{ repo.description }}
+
+{% if repo.topics %}**Topics:** {{ repo.topics|join(", ") }}{% endif %}
+
+**Language:** {{ repo.language }} | **Stars:** {{ repo.stars }} | **Last updated:** {{ repo.last_updated }}
+
+{% if repo.has_pages %}[View Project Site](https://{{ org_name }}.github.io/{{ repo.name }}) | {% endif %}[View on GitHub]({{ repo.repo_url }})
+
+---
+
+{% endfor %}
+
+Generated automatically for [{{ org_name }}](https://github.com/{{ org_name }}). See the [source code](https://github.com/{{ org_name }}/{{ org_name }}.github.io) for this site.

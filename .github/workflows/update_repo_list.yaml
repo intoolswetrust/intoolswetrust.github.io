@@ -1,0 +1,47 @@
+name: Update Repository List
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:     # Allow manual trigger
+
+jobs:
+  update-repo-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyGithub jinja2 markdown pyyaml
+
+      - name: Generate repository list
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          python scripts/generate_content.py
+
+      - name: Setup Node.js if using Jekyll or another static site generator
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Build site
+        run: |
+          gem install bundler jekyll
+          bundle install
+          bundle exec jekyll build
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update repository list" && git push)
