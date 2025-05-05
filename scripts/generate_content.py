@@ -14,7 +14,6 @@ from jinja2 import Template
 
 # Configuration
 ORG_NAME = "intoolswetrust"
-README_PATH = "README.md"
 INDEX_PATH = "index.md"
 CONFIG_PATH = "_config.yml"
 TEMPLATE_PATH = "templates/index.md.j2"
@@ -23,52 +22,50 @@ GITHUB_PAGES_URL = f"https://{ORG_NAME}.github.io"
 def fetch_repositories():
     """Fetch all public repositories from the organization."""
     token = os.environ.get("GH_TOKEN")
-    if not token:
-        raise ValueError("GH_TOKEN environment variable is required")
     
-    g = Github(token)
+    if token:
+        g = Github(token)
+    else:
+        # If no token is provided, use unauthenticated client
+        # Note: This has very limited rate limits but works for small organizations
+        print("Warning: No GH_TOKEN provided. Using unauthenticated client with limited rate limits.")
+        g = Github()
+    
     org = g.get_organization(ORG_NAME)
     
     repositories = []
-    for repo in org.get_repos(type="public"):
-        # Skip the website repository itself
-        if repo.name == f"{ORG_NAME}.github.io":
-            continue
-        
-        # Check if repo has GitHub Pages site
-        has_pages = repo.has_pages
-        
-        # Check for topics/tags
-        topics = repo.get_topics()
-        
-        # Check for repository description
-        description = repo.description or "No description available"
-        
-        # Determine link to use
-        if has_pages:
-            page_url = f"{GITHUB_PAGES_URL}/{repo.name}"
-            site_url = page_url
-        else:
-            site_url = repo.html_url
-        
-        # Get last updated date
-        last_updated = repo.updated_at
-        
-        repositories.append({
-            "name": repo.name,
-            "description": description,
-            "url": site_url,
-            "repo_url": repo.html_url,
-            "topics": topics,
-            "stars": repo.stargazers_count,
-            "has_pages": has_pages,
-            "last_updated": last_updated.strftime("%Y-%m-%d"),
-            "language": repo.language or "Not specified"
-        })
-    
+    try:
+        for repo in org.get_repos(type="public"):
+            # Skip the website repository itself
+            if repo.name == f"{ORG_NAME}.github.io":
+                continue
+            has_pages = repo.has_pages
+            topics = repo.get_topics()
+            description = repo.description or "No description available"
+            if has_pages:
+                page_url = f"{GITHUB_PAGES_URL}/{repo.name}"
+                site_url = page_url
+            else:
+                site_url = repo.html_url
+            last_updated = repo.updated_at
+            repositories.append({
+                "name": repo.name,
+                "description": description,
+                "url": site_url,
+                "repo_url": repo.html_url,
+                "topics": topics,
+                "stars": repo.stargazers_count,
+                "has_pages": has_pages,
+                "last_updated": last_updated.strftime("%Y-%m-%d"),
+                "language": repo.language or "Not specified"
+            })
+    except Exception as e:
+        print(f"Error fetching repositories: {str(e)}")
+        raise    
     # Sort repositories by stars (descending)
     repositories.sort(key=lambda x: x["stars"], reverse=True)
     return repositories
+
 
 def generate_content(repositories):
     """Generate Markdown content from repository data."""
@@ -148,10 +145,6 @@ Generated automatically for [{{ org_name }}](https://github.com/{{ org_name }}).
         
         # Write to index.md
         with open(INDEX_PATH, "w") as f:
-            f.write(content)
-        
-        # Also update README.md with same content
-        with open(README_PATH, "w") as f:
             f.write(content)
         
         # Create or update _config.yml if it doesn't exist

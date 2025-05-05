@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate repository list
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/generate_content.py
 
@@ -33,9 +33,15 @@ jobs:
         with:
           node-version: '16'
 
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
       - name: Build site
         run: |
-          gem install bundler jekyll
+          gem install bundler --user-install
+          bundle config set --local path 'vendor/bundle'
           bundle install
           bundle exec jekyll build
 
