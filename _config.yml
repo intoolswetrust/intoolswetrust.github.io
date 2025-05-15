@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: InToolsWeTrust Projects
+title: In Tools We Trust
 description: A collection of projects by intoolswetrust
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://intoolswetrust.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -29,10 +29,10 @@ github:
   owner_name: intoolswetrust
 
 remote_theme: pages-themes/dinky@v0.2.0
+#theme: dinky
 show_downloads: false
 
 # Build settings
-# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
