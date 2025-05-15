@@ -1,7 +1,5 @@
 # intoolswetrust Projects
 
-*Last updated: 2025-05-15 01:06:28*
-
 This page lists all 8 public repositories from the [intoolswetrust](https://github.com/intoolswetrust) GitHub organization.
 
 
@@ -83,6 +81,19 @@ SunPKCS11 fork with context-specific login support
 ---
 
 
+## [mvnquery](https://github.com/intoolswetrust/mvnquery)
+
+A command-line tool to query Maven repository indexes efficiently, supporting custom filtering.
+
+
+
+**Language:** Java | **Stars:** 1 | **Last updated:** 2025-05-15
+
+[View on GitHub](https://github.com/intoolswetrust/mvnquery)
+
+---
+
+
 ## [jsignpdf-pades](https://github.com/intoolswetrust/jsignpdf-pades)
 
 JSignPdf sibling with PAdES support
@@ -95,19 +106,3 @@ JSignPdf sibling with PAdES support
 
 ---
 
-
-## [mvnquery](https://github.com/intoolswetrust/mvnquery)
-
-A command-line tool to query Maven repository indexes efficiently, supporting custom filtering.
-
-
-
-**Language:** Java | **Stars:** 0 | **Last updated:** 2025-05-12
-
-[View on GitHub](https://github.com/intoolswetrust/mvnquery)
-
----
-
-
-
-Generated automatically for [intoolswetrust](https://github.com/intoolswetrust). See the [source code](https://github.com/intoolswetrust/intoolswetrust.github.io) for this site.
