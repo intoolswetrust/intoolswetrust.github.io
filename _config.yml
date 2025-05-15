@@ -28,10 +28,11 @@ github:
   owner_url: https://github.com/intoolswetrust
   owner_name: intoolswetrust
 
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/dinky@v0.2.0
+show_downloads: false
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
