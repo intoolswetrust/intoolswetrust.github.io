@@ -15,7 +15,6 @@ from jinja2 import Template
 # Configuration
 ORG_NAME = "intoolswetrust"
 INDEX_PATH = "index.md"
-CONFIG_PATH = "_config.yml"
 TEMPLATE_PATH = "templates/index.md.j2"
 GITHUB_PAGES_URL = f"https://{ORG_NAME}.github.io"
 
@@ -84,29 +83,9 @@ def main():
     try:
         repositories = fetch_repositories()
         content = generate_content(repositories)
-        
         # Write to index.md
         with open(INDEX_PATH, "w") as f:
             f.write(content)
-        
-        # Create or update _config.yml if it doesn't exist
-        if not os.path.exists(CONFIG_PATH):
-            config = {
-                "title": f"{ORG_NAME} Projects",
-                "description": f"A collection of projects by {ORG_NAME}",
-                "theme": "jekyll-theme-cayman",
-                "show_downloads": False,
-                "google_analytics": "",
-                "repository": f"{ORG_NAME}/{ORG_NAME}.github.io",
-                "github": {
-                    "is_project_page": True,
-                    "owner_url": f"https://github.com/{ORG_NAME}",
-                    "owner_name": ORG_NAME
-                }
-            }
-            with open(CONFIG_PATH, "w") as f:
-                yaml.dump(config, f)
-        
         print(f"Successfully generated content with {len(repositories)} repositories")
     except Exception as e:
         print(f"Error: {str(e)}")
