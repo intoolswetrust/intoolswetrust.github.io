@@ -1,4 +1,4 @@
-# intoolswetrust Projects
+# InToolsWeTrust projects
 
 This page lists all 8 public repositories from the [intoolswetrust](https://github.com/intoolswetrust) GitHub organization.
 
