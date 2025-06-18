@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 346 | **Last updated:** 2025-05-29
+**Language:** Java | **Stars:** 347 | **Last updated:** 2025-06-17
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -81,15 +81,15 @@ SunPKCS11 fork with context-specific login support
 ---
 
 
-## [mvnquery](https://github.com/intoolswetrust/mvnquery)
+## [mvnquery](https://intoolswetrust.github.io/mvnquery)
 
 A command-line tool to query Maven repository indexes efficiently, supporting custom filtering.
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2025-06-10
+**Language:** Java | **Stars:** 1 | **Last updated:** 2025-06-17
 
-[View on GitHub](https://github.com/intoolswetrust/mvnquery)
+[View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
 
 ---
 
