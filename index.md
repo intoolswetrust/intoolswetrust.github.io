@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 613 | **Last updated:** 2025-07-12
+**Language:** Java | **Stars:** 614 | **Last updated:** 2025-07-14
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 173 | **Last updated:** 2025-06-26
+**Language:** Java | **Stars:** 172 | **Last updated:** 2025-07-14
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
