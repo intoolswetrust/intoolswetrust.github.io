@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 616 | **Last updated:** 2025-07-28
+**Language:** Java | **Stars:** 617 | **Last updated:** 2025-08-13
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 357 | **Last updated:** 2025-08-08
+**Language:** Java | **Stars:** 358 | **Last updated:** 2025-08-13
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 172 | **Last updated:** 2025-07-14
+**Language:** Java | **Stars:** 173 | **Last updated:** 2025-08-13
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
@@ -87,7 +87,7 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2025-08-07
+**Language:** Java | **Stars:** 1 | **Last updated:** 2025-08-13
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
 
