@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 174 | **Last updated:** 2025-10-07
+**Language:** Java | **Stars:** 173 | **Last updated:** 2025-10-10
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
@@ -48,7 +48,7 @@ All-in-one Java implementation of RFC-5424 Syslog Protocol for testing purposes 
 
 
 
-**Language:** Java | **Stars:** 60 | **Last updated:** 2025-10-08
+**Language:** Java | **Stars:** 59 | **Last updated:** 2025-10-10
 
 [View on GitHub](https://github.com/intoolswetrust/simple-syslog-server)
 
