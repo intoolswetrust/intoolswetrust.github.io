@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 622 | **Last updated:** 2025-10-28
+**Language:** Java | **Stars:** 623 | **Last updated:** 2025-10-30
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 173 | **Last updated:** 2025-10-10
+**Language:** Java | **Stars:** 174 | **Last updated:** 2025-10-30
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
@@ -48,7 +48,7 @@ All-in-one Java implementation of RFC-5424 Syslog Protocol for testing purposes 
 
 
 
-**Language:** Java | **Stars:** 59 | **Last updated:** 2025-10-10
+**Language:** Java | **Stars:** 60 | **Last updated:** 2025-10-30
 
 [View on GitHub](https://github.com/intoolswetrust/simple-syslog-server)
 
@@ -61,7 +61,7 @@ A simple Kerberos server and keytab generator which uses ApacheDS.
 
 
 
-**Language:** Java | **Stars:** 37 | **Last updated:** 2024-05-06
+**Language:** Java | **Stars:** 38 | **Last updated:** 2025-10-30
 
 [View on GitHub](https://github.com/intoolswetrust/kerberos-server)
 
@@ -74,7 +74,7 @@ SunPKCS11 fork with context-specific login support
 
 **Topics:** java, pkcs11
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2023-03-22
+**Language:** Java | **Stars:** 2 | **Last updated:** 2025-10-30
 
 [View on GitHub](https://github.com/intoolswetrust/jsign-pkcs11)
 
