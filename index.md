@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 368 | **Last updated:** 2025-11-26
+**Language:** Java | **Stars:** 369 | **Last updated:** 2025-11-27
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
