@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 370 | **Last updated:** 2025-12-09
+**Language:** Java | **Stars:** 371 | **Last updated:** 2025-12-17
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -48,7 +48,7 @@ All-in-one Java implementation of RFC-5424 Syslog Protocol for testing purposes 
 
 
 
-**Language:** Java | **Stars:** 60 | **Last updated:** 2025-10-30
+**Language:** Java | **Stars:** 61 | **Last updated:** 2025-12-17
 
 [View on GitHub](https://github.com/intoolswetrust/simple-syslog-server)
 
