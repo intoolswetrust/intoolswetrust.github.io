@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 627 | **Last updated:** 2026-01-05
+**Language:** Java | **Stars:** 628 | **Last updated:** 2026-01-07
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 376 | **Last updated:** 2026-01-06
+**Language:** Java | **Stars:** 377 | **Last updated:** 2026-01-07
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
