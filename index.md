@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 377 | **Last updated:** 2026-01-07
+**Language:** Java | **Stars:** 376 | **Last updated:** 2026-01-16
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 173 | **Last updated:** 2025-12-31
+**Language:** Java | **Stars:** 174 | **Last updated:** 2026-01-17
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
