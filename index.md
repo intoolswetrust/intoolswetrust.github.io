@@ -87,7 +87,7 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2026-01-12
+**Language:** Java | **Stars:** 1 | **Last updated:** 2026-01-26
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
 
