@@ -74,7 +74,7 @@ SunPKCS11 fork with context-specific login support
 
 **Topics:** java, pkcs11
 
-**Language:** Java | **Stars:** 2 | **Last updated:** 2025-10-30
+**Language:** Java | **Stars:** 3 | **Last updated:** 2026-02-08
 
 [View on GitHub](https://github.com/intoolswetrust/jsign-pkcs11)
 
