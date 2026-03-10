@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 640 | **Last updated:** 2026-02-27
+**Language:** Java | **Stars:** 640 | **Last updated:** 2026-03-09
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -87,7 +87,7 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2026-02-09
+**Language:** Java | **Stars:** 1 | **Last updated:** 2026-03-09
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
 
