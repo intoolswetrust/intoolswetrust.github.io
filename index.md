@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 176 | **Last updated:** 2026-03-01
+**Language:** Java | **Stars:** 175 | **Last updated:** 2026-03-10
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
