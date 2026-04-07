@@ -81,6 +81,19 @@ SunPKCS11 fork with context-specific login support
 ---
 
 
+## [jsignpdf-pades](https://github.com/intoolswetrust/jsignpdf-pades)
+
+JSignPdf sibling with PAdES support
+
+
+
+**Language:** Java | **Stars:** 1 | **Last updated:** 2026-04-06
+
+[View on GitHub](https://github.com/intoolswetrust/jsignpdf-pades)
+
+---
+
+
 ## [mvnquery](https://intoolswetrust.github.io/mvnquery)
 
 A command-line tool to query Maven repository indexes efficiently, supporting custom filtering.
@@ -90,19 +103,6 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 **Language:** Java | **Stars:** 1 | **Last updated:** 2026-03-09
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
-
----
-
-
-## [jsignpdf-pades](https://github.com/intoolswetrust/jsignpdf-pades)
-
-JSignPdf sibling with PAdES support
-
-
-
-**Language:** Java | **Stars:** 0 | **Last updated:** 2026-04-05
-
-[View on GitHub](https://github.com/intoolswetrust/jsignpdf-pades)
 
 ---
 
