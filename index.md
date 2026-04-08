@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 641 | **Last updated:** 2026-03-26
+**Language:** Java | **Stars:** 642 | **Last updated:** 2026-04-08
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ PDF signing software written in Java. It supports visible signatures, timestampi
 
 
 
-**Language:** Java | **Stars:** 390 | **Last updated:** 2026-04-04
+**Language:** Java | **Stars:** 391 | **Last updated:** 2026-04-07
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -48,7 +48,7 @@ All-in-one Java implementation of RFC-5424 Syslog Protocol for testing purposes 
 
 
 
-**Language:** Java | **Stars:** 61 | **Last updated:** 2025-12-17
+**Language:** Java | **Stars:** 60 | **Last updated:** 2026-04-07
 
 [View on GitHub](https://github.com/intoolswetrust/simple-syslog-server)
 
@@ -87,7 +87,7 @@ JSignPdf sibling with PAdES support
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2026-04-06
+**Language:** Java | **Stars:** 1 | **Last updated:** 2026-04-07
 
 [View on GitHub](https://github.com/intoolswetrust/jsignpdf-pades)
 
