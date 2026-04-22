@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 643 | **Last updated:** 2026-04-08
+**Language:** Java | **Stars:** 644 | **Last updated:** 2026-04-21
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -18,11 +18,11 @@ Command line Java Decompiler
 
 ## [jsignpdf](https://intoolswetrust.github.io/jsignpdf)
 
-PDF signing software written in Java. It supports visible signatures, timestamping, certificate verification and many other cool features
+Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place visible signatures, PKCS#11/PKCS#12 keystores, RFC 3161 timestamping, OCSP/CRL long-term validation, and a scriptable CLI.
 
+**Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-
-**Language:** Java | **Stars:** 395 | **Last updated:** 2026-04-20
+**Language:** Java | **Stars:** 395 | **Last updated:** 2026-04-21
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
