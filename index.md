@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 642 | **Last updated:** 2026-04-27
+**Language:** Java | **Stars:** 643 | **Last updated:** 2026-05-08
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place vi
 
 **Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-**Language:** Java | **Stars:** 403 | **Last updated:** 2026-05-07
+**Language:** Java | **Stars:** 403 | **Last updated:** 2026-05-08
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 176 | **Last updated:** 2026-03-26
+**Language:** Java | **Stars:** 176 | **Last updated:** 2026-05-08
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
