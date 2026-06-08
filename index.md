@@ -87,7 +87,7 @@ JSignPdf sibling with PAdES support
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2026-05-04
+**Language:** Java | **Stars:** 2 | **Last updated:** 2026-06-07
 
 [View on GitHub](https://github.com/intoolswetrust/jsignpdf-pades)
 
