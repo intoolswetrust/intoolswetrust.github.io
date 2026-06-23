@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 644 | **Last updated:** 2026-06-18
+**Language:** Java | **Stars:** 644 | **Last updated:** 2026-06-22
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place vi
 
 **Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-**Language:** Java | **Stars:** 419 | **Last updated:** 2026-06-21
+**Language:** Java | **Stars:** 421 | **Last updated:** 2026-06-22
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -100,7 +100,7 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2026-05-26
+**Language:** Java | **Stars:** 1 | **Last updated:** 2026-06-22
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
 
