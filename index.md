@@ -22,7 +22,7 @@ Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place vi
 
 **Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-**Language:** Java | **Stars:** 421 | **Last updated:** 2026-06-22
+**Language:** Java | **Stars:** 429 | **Last updated:** 2026-06-23
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -61,7 +61,7 @@ A simple Kerberos server and keytab generator which uses ApacheDS.
 
 
 
-**Language:** Java | **Stars:** 37 | **Last updated:** 2026-03-28
+**Language:** Java | **Stars:** 38 | **Last updated:** 2026-06-23
 
 [View on GitHub](https://github.com/intoolswetrust/kerberos-server)
 
