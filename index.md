@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 649 | **Last updated:** 2026-08-11
+**Language:** Java | **Stars:** 650 | **Last updated:** 2026-08-21
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place vi
 
 **Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-**Language:** Java | **Stars:** 462 | **Last updated:** 2026-08-20
+**Language:** Java | **Stars:** 462 | **Last updated:** 2026-08-21
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -35,7 +35,7 @@ Simple in-memory LDAP server for testing purposes - single JAR based on ApacheDS
 
 
 
-**Language:** Java | **Stars:** 176 | **Last updated:** 2026-05-08
+**Language:** Java | **Stars:** 177 | **Last updated:** 2026-08-21
 
 [View on GitHub](https://github.com/intoolswetrust/ldap-server)
 
@@ -61,7 +61,7 @@ A simple Kerberos server and keytab generator which uses ApacheDS.
 
 
 
-**Language:** Java | **Stars:** 38 | **Last updated:** 2026-06-23
+**Language:** Java | **Stars:** 39 | **Last updated:** 2026-08-21
 
 [View on GitHub](https://github.com/intoolswetrust/kerberos-server)
 
