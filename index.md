@@ -1,6 +1,6 @@
 # InToolsWeTrust projects
 
-This page lists all 8 public repositories from the [intoolswetrust](https://github.com/intoolswetrust) GitHub organization.
+This page lists all 9 public repositories from the [intoolswetrust](https://github.com/intoolswetrust) GitHub organization.
 
 
 ## [jd-cli](https://github.com/intoolswetrust/jd-cli)
@@ -103,6 +103,19 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 **Language:** Java | **Stars:** 1 | **Last updated:** 2026-09-07
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
+
+---
+
+
+## [homebrew-tap](https://github.com/intoolswetrust/homebrew-tap)
+
+Homebrew formulae for In Tools We Trust projects
+
+
+
+**Language:** Ruby | **Stars:** 0 | **Last updated:** 2026-09-16
+
+[View on GitHub](https://github.com/intoolswetrust/homebrew-tap)
 
 ---
 
