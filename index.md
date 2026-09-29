@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 655 | **Last updated:** 2026-09-25
+**Language:** Java | **Stars:** 655 | **Last updated:** 2026-09-28
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
@@ -22,7 +22,7 @@ Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place vi
 
 **Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-**Language:** Java | **Stars:** 473 | **Last updated:** 2026-09-26
+**Language:** Java | **Stars:** 474 | **Last updated:** 2026-09-28
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -100,7 +100,7 @@ A command-line tool to query Maven repository indexes efficiently, supporting cu
 
 
 
-**Language:** Java | **Stars:** 1 | **Last updated:** 2026-09-07
+**Language:** Java | **Stars:** 1 | **Last updated:** 2026-09-28
 
 [View Project Site](https://intoolswetrust.github.io/mvnquery) | [View on GitHub](https://github.com/intoolswetrust/mvnquery)
 
@@ -113,7 +113,7 @@ Homebrew formulae for In Tools We Trust projects
 
 
 
-**Language:** Ruby | **Stars:** 0 | **Last updated:** 2026-09-16
+**Language:** Ruby | **Stars:** 0 | **Last updated:** 2026-09-28
 
 [View on GitHub](https://github.com/intoolswetrust/homebrew-tap)
 
