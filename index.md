@@ -61,7 +61,7 @@ A simple Kerberos server and keytab generator which uses ApacheDS.
 
 
 
-**Language:** Java | **Stars:** 39 | **Last updated:** 2026-08-21
+**Language:** Java | **Stars:** 38 | **Last updated:** 2026-10-09
 
 [View on GitHub](https://github.com/intoolswetrust/kerberos-server)
 
