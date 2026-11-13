@@ -22,7 +22,7 @@ Cross-platform PDF digital signing tool. JavaFX desktop UI with drag-to-place vi
 
 **Topics:** cli, digital-signature, digital-signing, hsm, java, javafx, ltv, ocsp, pdf, pdf-signature, pkcs11, pkcs12, rfc3161, smartcard, timestamping
 
-**Language:** Java | **Stars:** 491 | **Last updated:** 2026-11-11
+**Language:** Java | **Stars:** 491 | **Last updated:** 2026-11-12
 
 [View Project Site](https://intoolswetrust.github.io/jsignpdf) | [View on GitHub](https://github.com/intoolswetrust/jsignpdf)
 
@@ -74,7 +74,7 @@ SunPKCS11 fork with context-specific login support
 
 **Topics:** java, pkcs11
 
-**Language:** Java | **Stars:** 4 | **Last updated:** 2026-06-20
+**Language:** Java | **Stars:** 4 | **Last updated:** 2026-11-12
 
 [View on GitHub](https://github.com/intoolswetrust/jsign-pkcs11)
 
