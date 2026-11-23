@@ -48,7 +48,7 @@ All-in-one Java implementation of RFC-5424 Syslog Protocol for testing purposes 
 
 
 
-**Language:** Java | **Stars:** 61 | **Last updated:** 2026-04-19
+**Language:** Java | **Stars:** 62 | **Last updated:** 2026-11-22
 
 [View on GitHub](https://github.com/intoolswetrust/simple-syslog-server)
 
