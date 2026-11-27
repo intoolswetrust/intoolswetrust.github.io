@@ -9,7 +9,7 @@ Command line Java Decompiler
 
 
 
-**Language:** Java | **Stars:** 655 | **Last updated:** 2026-11-19
+**Language:** Java | **Stars:** 656 | **Last updated:** 2026-11-27
 
 [View on GitHub](https://github.com/intoolswetrust/jd-cli)
 
